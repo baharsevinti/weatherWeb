@@ -4,6 +4,7 @@ const havaDurumuGetir=async (Id)=>{
     const sorgu=`${Id}?apikey=${key}`;
     const res= await fetch(temelUrl+sorgu);
     const veri= await res.json();
+    return veri;
     
 }
 
