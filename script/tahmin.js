@@ -1,4 +1,4 @@
-const key ='P9r9AYnFr4LPi1PPacFPCOcuharHLulu';
+const key ='EA2nQFyQM02jyq3sAZ4fVLblEjEvOkEQ';
 const havaDurumuGetir=async (Id)=>{
     const temelUrl='http://dataservice.accuweather.com/currentconditions/v1/';
     const sorgu=`${Id}?apikey=${key}`;
